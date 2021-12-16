@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.colored{
+    color:rgb(219, 167, 108);
+}
+
+h1{
+    letter-spacing: 5px;
+    font-size: 48px;
+    line-height: 0.7em;
+}
+
+h2{
+    font-size:38px;
+    line-height: 0.7em;
+}
+
+h3{
+    font-size:32px;
+    line-height: 0.7em;
+}
+
+body{
+    font-family: roboto_regular;
+    color:black;
+    background-color:rgb(27, 27, 27);
+}
+
+img{
+    width:100%;
+    object-fit: cover;
+}
+
+.allura_colored{
+    font-family:allura;
+    color:rgb(219, 167, 108);
+}

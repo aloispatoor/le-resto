@@ -1,0 +1,38 @@
+/*COMMENT*/
+.comment{
+    margin-top: 5rem;
+    position:relative;
+    background-color: white;
+    text-align:center;
+    margin-left: auto;
+    margin-right:auto;
+    width:75%;
+}
+
+.comment img{
+    position:absolute;
+    border-radius:50%;
+    width:10%;
+    margin: 0 auto;
+    top:-50px;
+}
+
+.commentText{
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    padding-top: 110px;
+    padding-left:80px;
+    padding-right:80px;
+}
+
+.Naming{
+    font-family:'Times New Roman', Times, serif;
+    font-size:32px;
+    margin-top:10px;
+}
+
+.comment .colored{
+    font-family:poppins_light;
+    margin-top:10px;
+    margin-bottom:100px;
+}

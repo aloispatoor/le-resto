@@ -1,0 +1,147 @@
+/*EVENT*/
+.events .title{
+    text-align:center;
+    color:white;
+}
+
+.eventCards{
+    margin: 50px 2%;
+    display: grid;
+    height:700px;
+    width:100%;
+    grid-template-columns: repeat(3*1fr);
+    grid-template-rows: 30% 30%;
+    gap: 2%;
+
+}
+
+.topLeft img, .bottomLeft img{
+    position: relative;
+    z-index:1;
+    height:200px;
+    width:200px;
+}
+
+.whiteRectangle{
+    left:800px;
+    background-color: white;
+    height:200px;
+    width:100%;
+}
+
+.whiteRectangle1{
+    left:800px;
+    background-color: white;
+    height:200px;
+    width:100%;
+}
+
+.right img{
+    height:100%;
+    width:50vw;
+    position:relative;
+    z-index: 0;
+}
+
+.whiteRectangle2{
+    position:absolute;
+    z-index:1;
+    background-color: white;
+    height:30%;
+    width:20%;
+    text-align:center;
+}
+
+.eventTitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size:2em;
+    margin:20px;
+}
+
+.placeTime{
+    font-family: poppins_light;
+    color:grey;
+    margin:20px;
+}
+
+.buyTickets{
+    font-weight:bold;
+    font-size:12px;
+    letter-spacing: 2px;
+    margin:20px;
+}
+
+.blackSquare1{
+    position:absolute;
+    z-index:2;
+    text-align: center;
+    border:solid rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+    color:white;
+    height:80px;
+    width:80px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:32px;
+    padding:auto;
+    margin:50px;
+}
+
+.blackSquare2{
+    position: absolute;
+    z-index:2;
+    text-align: center;
+    border:solid rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+    color:white;
+    height:80px;
+    width:80px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:32px;
+    padding:auto;
+    margin:50px;
+}
+
+.blackSquareRight{
+    position:absolute;
+    z-index:2;
+    text-align:center;
+    border:solid rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+    color:white;
+    height:80px;
+    width:80px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:32px;
+    padding:auto;
+    align-self:flex-start;
+}
+
+.topLeft{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display:flex;
+    flex-direction:row;
+}
+
+.bottomLeft{
+    grid-column:1;
+    grid-row:2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display:flex;
+    flex-direction:row;
+}
+
+.right{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .eventTitle{
+    padding-top:1rem;
+}

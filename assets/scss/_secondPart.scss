@@ -1,0 +1,52 @@
+/* SECOND PART */
+.secondPart{
+    display:flex;
+    background-color:white;
+}
+
+    /* LEFT SECTION */
+.leftSection{
+    background-color:white;
+    width:50vw;
+    text-align:center;
+    padding: 100px;
+    margin: 20px;
+    border: 1px dashed rgb(219, 167, 108);
+}
+
+.leftSection h2{
+    padding:10px;
+}
+
+.leftParagraph{
+    font-family:roboto_light;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.leftNaming{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.leftSection img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+
+.plateLogo img{
+    width:30px;
+    height: 30px;
+}
+
+.presentation{
+    font-family:'Times New Roman', Times, serif;
+    font-size:32px;
+}
+
+    /* RIGHT SECTION  */
+.rightSection img{
+    width:100%;
+    height:100%;
+}

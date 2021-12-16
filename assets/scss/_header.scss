@@ -1,0 +1,62 @@
+/* HEADER */
+    /* NAVBAR */
+header{
+    position:relative;
+    background-image: url(../img/bg-slider-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    height: 60vh;
+    width:100%;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    width:100%;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:wrap;
+}
+
+nav ul li{
+    padding: 10px 3rem;
+    font-family:poppins_light;
+}
+
+.resto{
+    padding-left:20px;
+    font-family: allura;
+    font-size:48px;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex:wrap;
+}
+
+.social i{
+    padding: 10px 20px 0px 20px;
+}
+    /* HEADER TEXT */
+.intro{
+    text-align:center;
+    letter-spacing: 5px;
+}
+
+.intro img{
+    width: 5%;
+    margin:50px auto;
+}
+
+.intro i{
+    padding: 50px auto;
+}

@@ -1,0 +1,38 @@
+/*GALLERY*/
+.gallerySection{
+    text-align:center;
+    margin:50px auto;
+}
+
+.gallerySection .poppins{
+    color:white;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.gallery img{
+    width:30%;
+    height:30%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.gallerySection a{
+    color: white;
+    font-weight:bold;
+    font-size:12px;
+    border:1px solid white;
+    border-radius:30px;
+    padding:10px 20px 10px 20px;
+    margin: 50px auto;
+}
+
+.gallerySection a:hover{
+    color:grey;
+    transition: 0.3s;
+    cursor: pointer;
+}

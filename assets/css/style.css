@@ -1,0 +1,720 @@
+@font-face {
+  font-family: roboto_regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto_light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: roboto_thin;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: allura;
+  src: url(../fonts/Allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: poppins_light;
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.colored {
+  color: #dba76c;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 48px;
+  line-height: 0.7em;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 0.7em;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 0.7em;
+}
+
+body {
+  font-family: roboto_regular;
+  color: black;
+  background-color: #1b1b1b;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.allura_colored {
+  font-family: allura;
+  color: #dba76c;
+}
+
+/* HEADER */
+/* NAVBAR */
+header {
+  position: relative;
+  background-image: url(../img/bg-slider-06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 60vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 10px 3rem;
+  font-family: poppins_light;
+}
+
+.resto {
+  padding-left: 20px;
+  font-family: allura;
+  font-size: 48px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex: wrap;
+}
+
+.social i {
+  padding: 10px 20px 0px 20px;
+}
+
+/* HEADER TEXT */
+.intro {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.intro img {
+  width: 5%;
+  margin: 50px auto;
+}
+
+.intro i {
+  padding: 50px auto;
+}
+
+/* SECOND PART */
+.secondPart {
+  display: flex;
+  background-color: white;
+}
+
+/* LEFT SECTION */
+.leftSection {
+  background-color: white;
+  width: 50vw;
+  text-align: center;
+  padding: 100px;
+  margin: 20px;
+  border: 1px dashed #dba76c;
+}
+
+.leftSection h2 {
+  padding: 10px;
+}
+
+.leftParagraph {
+  font-family: roboto_light;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.leftNaming {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leftSection img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.plateLogo img {
+  width: 30px;
+  height: 30px;
+}
+
+.presentation {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+
+/* RIGHT SECTION  */
+.rightSection img {
+  width: 100%;
+  height: 100%;
+}
+
+/* THIRD PART */
+.thirdPart {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.thirdPart h2 {
+  padding: 10px;
+}
+
+.menu {
+  position: relative;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 20px;
+  margin-bottom: 75px;
+}
+
+.dropdown {
+  display: none;
+  color: black;
+  background-color: white;
+  position: absolute;
+  border-top: 5px solid #dba76c;
+  padding: 10px;
+  top: 40px;
+  left: 100px;
+  text-align: left;
+  width: 900px;
+  height: 600px;
+}
+
+.dropdown li span {
+  font-family: "Times New Roman", Times, serif;
+}
+
+li:hover {
+  color: grey;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dropdownMenu:hover .dropdown {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.dropdownMenu img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.dropdown li p {
+  font-family: poppins_light;
+  font-size: 14px;
+}
+
+.dropdown li {
+  border-bottom: 1px solid grey;
+}
+
+.dropdown li p .colored {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.bgMenu {
+  background-image: url(../img/bg-menu-01.jpg);
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+}
+
+/* FOURTH PART */
+.fourthPart {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.bgTimes {
+  background-color: #141414;
+}
+
+.times {
+  color: white;
+  background-color: #141414;
+  border: 1px dotted #dba76c;
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+.days {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.days span {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.number {
+  font-family: "Times New Roman", Times, serif;
+  border-top: 1px dotted #dba76c;
+  padding-top: 20px;
+}
+
+/*FORM*/
+.onlineBooking {
+  background-color: white;
+  text-align: center;
+  padding: 50px 30px 20px 30px;
+  width: 700px;
+}
+
+.paddForm {
+  text-align: left;
+}
+
+#people, #date, #time, #name, #phone, #email {
+  margin: 20px 20px;
+}
+
+input {
+  border: 0px;
+  border-bottom: 1px solid black;
+  height: 25px;
+  width: 180px;
+  color: grey;
+  padding: 5px 5px;
+}
+
+button {
+  color: white;
+  background-color: #141414;
+  border: 0px;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #141414;
+  background-color: #b3b3b3;
+  transition: 0.3s;
+}
+
+/*GALLERY*/
+.gallerySection {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.gallerySection .poppins {
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gallerySection a {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto;
+}
+
+.gallerySection a:hover {
+  color: grey;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/*EVENT*/
+.events .title {
+  text-align: center;
+  color: white;
+}
+
+.eventCards {
+  margin: 50px 2%;
+  display: grid;
+  height: 700px;
+  width: 100%;
+  grid-template-columns: repeat(3fr);
+  grid-template-rows: 30% 30%;
+  gap: 2%;
+}
+
+.topLeft img, .bottomLeft img {
+  position: relative;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+}
+
+.whiteRectangle {
+  left: 800px;
+  background-color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.whiteRectangle1 {
+  left: 800px;
+  background-color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.right img {
+  height: 100%;
+  width: 50vw;
+  position: relative;
+  z-index: 0;
+}
+
+.whiteRectangle2 {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  height: 30%;
+  width: 20%;
+  text-align: center;
+}
+
+.eventTitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.placeTime {
+  font-family: poppins_light;
+  color: grey;
+  margin: 20px;
+}
+
+.buyTickets {
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+
+.blackSquare1 {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  border: solid #141414;
+  background-color: #141414;
+  color: white;
+  height: 80px;
+  width: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  padding: auto;
+  margin: 50px;
+}
+
+.blackSquare2 {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  border: solid #141414;
+  background-color: #141414;
+  color: white;
+  height: 80px;
+  width: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  padding: auto;
+  margin: 50px;
+}
+
+.blackSquareRight {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  border: solid #141414;
+  background-color: #141414;
+  color: white;
+  height: 80px;
+  width: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  padding: auto;
+  align-self: flex-start;
+}
+
+.topLeft {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomLeft {
+  grid-column: 1;
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .eventTitle {
+  padding-top: 1rem;
+}
+
+/*COMMENT*/
+.comment {
+  margin-top: 5rem;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.comment img {
+  position: absolute;
+  border-radius: 50%;
+  width: 10%;
+  margin: 0 auto;
+  top: -50px;
+}
+
+.commentText {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.Naming {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.comment .colored {
+  font-family: poppins_light;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+/*MAP*/
+.map {
+  margin-top: -100px;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  background-image: url(../img/bg-footer.jpg);
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  font-family: poppins_light;
+}
+
+.footerLeft {
+  padding: 50px;
+  width: 40vw;
+  color: grey;
+}
+
+.footerRight {
+  width: 40vw;
+  padding: 50px;
+  color: grey;
+}
+
+.footerRight i {
+  padding: 20px;
+}
+
+.footerRight p {
+  font-size: 18px;
+}
+
+footer .poppins {
+  color: white;
+}
+
+footer input {
+  margin-bottom: 20px;
+  width: 50%;
+  padding-left: 10px;
+  background-color: #141414;
+  border: 1px solid grey;
+  color: #c2c2c2;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+    line-height: 0.7em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  nav ul {
+    font-size: 0.8em;
+  }
+
+  .secondPart {
+    height: 60vh;
+  }
+
+  .secondPart .leftSection img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .leftSection {
+    padding: 5%;
+  }
+
+  .leftParagraph {
+    margin-top: 0;
+  }
+
+  .plateLogo {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+  }
+
+  .presentation {
+    font-size: 1.5em;
+  }
+
+  .eventTitle {
+    font-size: 1.5em;
+  }
+
+  .dropdown li p {
+    font-size: 0.5em;
+  }
+
+  .dropdown li p .colored {
+    font-size: 0.5em;
+  }
+
+  .dropdown li span {
+    font-size: 0.8em;
+  }
+
+  .dropdown img {
+    width: 10%;
+    height: 10%;
+  }
+
+  .dropdown {
+    height: 30vh;
+    width: 80vw;
+    margin-left: -5%;
+  }
+
+  .comment img {
+    left: 60%;
+    top: -20px;
+  }
+
+  .commentText {
+    font-size: 0.8em;
+  }
+
+  .Naming {
+    font-size: 1em;
+  }
+
+  .footerLeft {
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .eventTitle {
+    font-size: 1.2em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

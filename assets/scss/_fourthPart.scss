@@ -1,0 +1,75 @@
+/* FOURTH PART */
+.fourthPart{
+    display:flex;
+    justify-content: center;
+    margin-top:60px;
+}
+.bgTimes{
+    background-color:rgb(20, 20, 20);
+}
+
+.times{
+    color: white;
+    background-color:rgb(20, 20, 20);
+    border: 1px dotted rgb(219, 167, 108);
+    text-align:center;
+    padding:50px;
+    margin:20px;
+}
+
+.days{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.days span{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.number{
+    font-family:'Times New Roman', Times, serif;
+    border-top: 1px dotted rgb(219, 167, 108);
+    padding-top: 20px;
+}
+
+/*FORM*/
+.onlineBooking{
+    background-color:white;
+    text-align:center;
+    padding: 50px 30px 20px 30px;
+    width:700px;
+}
+
+.paddForm{
+    text-align:left;
+}
+
+#people, #date, #time, #name, #phone, #email{
+    margin:20px 20px;
+}
+
+input{
+    border:0px;
+    border-bottom:1px solid black;
+    height:25px;
+    width: 180px;
+    color: grey;
+    padding:5px 5px;
+}
+
+button{
+    color:white;
+    background-color:rgb(20, 20, 20);
+    border:0px;
+    border-radius:50px;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+button:hover{
+    cursor: pointer;
+    color:rgb(20, 20, 20);
+    background-color: rgb(179, 179, 179);
+    transition:0.3s;
+}

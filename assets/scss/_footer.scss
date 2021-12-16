@@ -1,0 +1,44 @@
+/* FOOTER */
+footer{
+    display:flex;
+    justify-content: space-between;
+    gap:5%;
+    background-image: url(../img/bg-footer.jpg);
+    background-size: 100%;
+    width:100%;
+    background-position: center;
+    font-family:poppins_light;
+}
+
+.footerLeft{
+    padding: 50px;
+    width:40vw;
+    color:grey;
+}
+
+.footerRight{
+    width:40vw;
+    padding:50px;
+    color:grey;
+}
+
+.footerRight i{
+    padding:20px;
+}
+
+.footerRight p{
+    font-size: 18px;
+}
+
+footer .poppins{
+    color:white;
+}
+
+footer input{
+    margin-bottom:20px;
+    width: 50%;
+    padding-left:10px;
+    background-color:rgb(20, 20, 20);
+    border:1px solid grey;
+    color:rgb(194, 194, 194);
+}
